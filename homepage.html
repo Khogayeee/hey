@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khogaye: Mental Well-being</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Khogaye: Embrace Your Journey to Mental Wellness</h1>
+            <p>We provide a safe space and resources to support your mental health.  Let's work together to cultivate a more fulfilling and balanced life.</p>
+        </div>
+    </header>
+
+    <section class="mission">
+        <div class="container">
+            <p>Khogaye is dedicated to providing accessible and compassionate mental health support.  We believe that everyone deserves the opportunity to find their way to mental wellness.  We offer guidance and resources to support you on your journey.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Individual Therapy</li>
+                <li>Wellness Workshops</li>
+                <li>Couples Therapy</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="free-resources">
+        <div class="container">
+            <h2>Free Resources</h2>
+            <ul>
+                <li>Journaling</li>   <li><a href="khogayeconnect.html" class="button-link">khogaye connect</a></li>
+                <li>Inspiring Videos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="email-signup">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Sign up for our newsletter to receive the latest updates and resources from Khogaye.</p>
+            <form>
+                <input type="email" name="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We're here to support you.  Get in touch with us for more information.</p>
+            <p>Email: Khogayeee@gmail.com (Placeholder)</p>
+        </div>
+    </section>
+     <section id="inspiring-quote">
+        <div class="container">
+            <p>"The mind is everything. What you think you become." - Buddha</p>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const oneToOneChatButton = document.getElementById('one-on-one-chat-button');
+            const oneToOneChatSection = document.getElementById('one-on-one-chat');
+
+            if (oneToOneChatButton && oneToOneChatSection) {
+                oneToOneChatButton.addEventListener('click', () => {
+                    oneToOneChatSection.style.display = 'block';
+                     // Scroll to the chat section
+                    oneToOneChatSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
